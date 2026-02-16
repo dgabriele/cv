@@ -1,0 +1,204 @@
+\documentclass[9pt,letterpaper]{extarticle}
+\usepackage[margin=0.7in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Define colors
+\definecolor{sectioncolor}{RGB}{0,0,0}
+\definecolor{subsectioncolor}{RGB}{20,20,20}
+
+% Customize hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+% Customize section titles with more prominent styling
+\titleformat{\section}
+    {\large\bfseries\color{sectioncolor}}
+    {}{0em}{}[\vspace{1pt}\titlerule\vspace{-2pt}]
+\titleformat{\subsection}[hang]
+    {\normalsize\bfseries\color{subsectioncolor}}
+    {}{0em}{}
+
+\titlespacing*{\section}{0pt}{14pt plus 3pt minus 2pt}{8pt plus 2pt minus 1pt}
+\titlespacing*{\subsection}{0pt}{11pt plus 2pt minus 1pt}{5pt plus 1pt minus 1pt}
+
+% Configure list spacing and indentation for better visual hierarchy
+\setlist{
+    leftmargin=0.3in,
+    itemsep=3.5pt,
+    parsep=0pt,
+    topsep=7pt,
+    partopsep=0pt,
+    labelindent=0pt,
+    labelsep=0.15in
+}
+
+% Set paragraph spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 1.5pt minus 1pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\LARGE \textbf{Daniel Gabriele}}\\[5pt]
+\textbf{Senior Full Stack Engineer}\\[3pt]
+New York City, NY\\[4pt]
+LinkedIn: \href{https://linkedin.com/in/danielgabriele}{linkedin.com/in/danielgabriele} |
+GitHub: \href{https://github.com/dgabriele}{github.com/dgabriele}\\[1pt]
+Email: dg0offset@gmail.com | Phone: (347) 886-1059
+\end{center}
+\vspace{4pt}
+
+\section*{Professional Summary}
+
+Senior full stack engineer with 12+ years building production systems across web3, fintech, and enterprise applications. Backend specialist with deep expertise in distributed systems, microservices architecture, and high-performance computing. Proven track record designing and implementing complex full-stack applications from infrastructure to UX. Skilled in machine learning systems, from training neural operators and evolutionary algorithms to deploying adaptive trading systems. Strong architectural thinking combined with hands-on implementation across the entire stack—from smart contracts and backend APIs to responsive frontend UX and data pipelines.
+
+\section*{Work Experience}
+
+\subsection*{Founder \& Lead Engineer | Automated Trading Systems}
+\textbf{Jan 2025 - Present} | Self-Employed
+
+\vspace{2pt}
+\begin{itemize}
+    \item Built production automated trading system deployed on Dydx, Hyperliquid, and Injective with real-time data pipeline processing large-scale market data streams
+    \item Developed open source Pythonic genetic programming framework for evolving adaptive trading rule ensembles with self-regulating behavior
+    \item Implemented gradient boosting models (GBM) as metafilters for orderbook dynamics prediction, using genetic programming for automated feature engineering
+    \item Architected full-stack real-time system for deploying, monitoring, and adapting trading strategies with minimal latency
+    \item \textbf{Technologies:} Python, FastAPI, WebSockets, PyTorch, Pandas, NumPy, Scipy
+\end{itemize}
+
+\subsection*{Co-Founder \& Technical Lead | Gelotto}
+\textbf{Feb 2022 - Nov 2025} | Self-Employed
+
+\vspace{2pt}
+\textit{Web3 gaming and application software company building decentralized applications, running validators, and contributing to blockchain infrastructure innovation across multiple Cosmos networks.}
+
+\vspace{2pt}
+\begin{itemize}
+    \item Designed and implemented 20+ production CosmWasm smart contracts powering full-stack web3 applications including games, social platforms, and DeFi protocols across 6 Cosmos networks
+    \item Built novel "zero-backend" architecture—complete applications running on smart contracts with zero hosting costs or private RPC dependencies
+    \item Launched pampit.fun, a production token launchpad powered 100\% by on-chain smart contracts handling real transaction volume
+    \item Designed and built Threads, a Reddit-like fully on-chain social application with tree-structured discussions and native tipping
+    \item Developed multiple lottery and gaming platforms with complex game logic and profit-sharing mechanisms
+    \item Launched three NFT series with trustless smart contract profit distribution
+    \item Awarded permission via blockchain governance to deploy on five networks; won multiple grants; achieved \$400K peak LP investment during ICO
+    \item Managed large Discord community at peak operation; presented at in-person Cosmos events
+    \item \textbf{Technologies:} Rust, CosmWasm, TypeScript, Next.js, Nest.js, Expo, Docker, Kubernetes
+\end{itemize}
+
+\subsection*{Senior Software Engineer | Strike Protocols}
+\textbf{Jan 2021 - Dec 2022} | New York City, NY | \href{https://www.crunchbase.com/organization/strike-protocols-inc}{Crunchbase}
+
+\vspace{2pt}
+\textit{Financial services and technology firm providing institutional-grade infrastructure and simple capital markets access to crypto assets for institutional investors and management teams.}
+
+\vspace{2pt}
+\begin{itemize}
+    \item Implemented multi-stage threshold-based on-chain authorization system for Solana enterprise cryptocurrency vault application
+    \item Designed and implemented complex frontend user workflows and vault management UI/UX for enterprise clients
+    \item Contributed to async backend framework for syncing on-chain state with backend databases
+    \item \textbf{Technologies:} Rust, TypeScript, Kotlin, Solana
+\end{itemize}
+
+\subsection*{Founder \& Lead Engineer | Artfactory}
+\textbf{Mar 2021 - Oct 2022} | Self-Employed
+
+\vspace{2pt}
+\begin{itemize}
+    \item Founded and built full-stack application with custom procedural art generation library (Reactor) for dropshipping business
+    \item Developed complex parametric art generation system rendering high-resolution outputs onto product mockups on-demand
+    \item Architected scalable backend with async task processing for on-the-fly art generation and rendering
+    \item \textbf{Technologies:} Node.js, TypeScript, Canvas API, Python, Celery
+\end{itemize}
+
+\subsection*{Senior Software Engineer (Contractor) | Private Investment Firm}
+\textbf{Jan 2019 - Dec 2021} | Contract
+
+\vspace{2pt}
+\begin{itemize}
+    \item Developed automated trading system for private investor with real-time market data streaming pipeline
+    \item Designed multiscale adaptive trading strategies according to client specifications
+    \item Built backend infrastructure for storing and processing high-frequency market data
+    \item \textbf{Technologies:} Python, FastAPI, WebSockets, Pandas, NumPy, Scipy
+\end{itemize}
+
+\subsection*{Senior Software Engineer | Axial}
+\textbf{Feb 2014 - Nov 2019} | New York, NY
+
+\vspace{2pt}
+\textit{Private deal network platform connecting business owners, M\&A advisors, and investors in the middle-market, using proprietary matching algorithms to facilitate mergers, acquisitions, and capital raising.}
+
+\vspace{2pt}
+\begin{itemize}
+    \item Rearchitected backend from monolith to FastAPI-based microservices architecture for B2B financial services platform
+    \item Designed and implemented core matching engine connecting business owners with investors and buyers
+    \item Built search and recommendation systems for classifying and discovering investment opportunities
+    \item Implemented user authentication and authorization systems
+    \item \textbf{Technologies:} Python, FastAPI, Celery, PostgreSQL, Redis, Docker, Kubernetes
+\end{itemize}
+
+\subsection*{Independent Android Developer}
+\textbf{Feb 2013 - Nov 2014} | Self-Employed
+
+\vspace{2pt}
+\begin{itemize}
+    \item Built five Android applications including form builders, P2P commerce, budgeting, and collaboration tools
+    \item Handled full development lifecycle from design to Play Store deployment
+\end{itemize}
+
+\subsection*{Research Assistant | University of Central Florida}
+\textbf{2009 - 2013}
+
+\vspace{2pt}
+\begin{itemize}
+    \item Developed non-blocking data structures and algorithms for high-performance computing applications (hash sets, bloom filters, green threads) in C++
+    \item Built multitouch applications for exploring symbolic learning and emergent communication systems with cellular automata
+    \item Developed algebra learning games for experimental high school curricula integrating hands-on CS experience
+    \item Participated in evolutionary computing research developing adaptive systems
+    \item \textbf{Technologies:} C++, Python, X Window System
+\end{itemize}
+
+\section*{Selected Technical Projects}
+
+\subsection*{Spinlock — Neural Operator Pre-Training Framework}
+\textbf{GitHub:} \href{https://github.com/dgabriele/spinlock}{github.com/dgabriele/spinlock} | PyTorch, U-AFNO, Neural Operators, VQ-VAE
+
+Pre-training framework for physics-native neural operators that discover emergent behaviors in high-dimensional dynamical systems. Implements curiosity-guided exploration using Sobol sampling, training U-AFNO meta-operators to generate fast surrogate models for diverse rollout dynamics. Compresses trajectories into hierarchical VQ-VAE tokens enabling semantic grounding across physics domains.
+
+\subsection*{Nature — Genetic Programming Framework}
+\textbf{GitHub:} \href{https://github.com/dgabriele/nature}{github.com/dgabriele/nature} | Python, Grammar Evolution
+
+Open source framework that evolves Python instance methods via \texttt{@evolve} decorator. Multi-objective optimization over arbitrary datatypes (Pandas, NumPy, CuPy) outperforming DEAP. Built for generating adaptive trading rule ensembles.
+
+\subsection*{Reactor — Procedural Generative Art Framework}
+\textbf{GitHub:} \href{https://github.com/superginyuforce/reactor}{github.com/superginyuforce/reactor} | Node.js, TypeScript, Canvas API
+
+Framework for procedural art generation with unified brush abstraction supporting parametric control over geometric primitives. Implements lazy evaluation proxy pattern for stroke dynamics with deterministic PRNG for reproducible variation. Produces high-resolution outputs (15000×15000px) for physical mockups and print-on-demand.
+
+\subsection*{PampIt — Token Launchpad}
+\textbf{GitHub:} \href{https://github.com/Gelotto/pampit}{github.com/Gelotto/pampit} | \textbf{Live:} \href{https://pampit.fun}{pampit.fun} | Next.js, Rust, CosmWasm
+
+Production token launchpad across 6 Cosmos chains with zero backend infrastructure. Custom RPC batching client reducing distributed query latency 10x (4000ms $\rightarrow$ 400ms). Responsive UX with client-side pub/sub polling and pagination. All business logic in Rust smart contracts.
+
+\subsection*{Blockchain Infrastructure Primitives}
+Open source reusable smart contract libraries in Rust/CosmWasm:
+\textbf{CW-Factory} (\href{https://github.com/Gelotto/cw-factory}{github}) — Multi-index factory with SQL-like on-chain querying via dual-map architecture |
+\textbf{CW-ACL} (\href{https://github.com/Gelotto/cw-acl}{github}) — Hierarchical access control with delegation chains |
+\textbf{CW-Thread} (\href{https://github.com/Gelotto/cw-thread}{github}) — On-chain forum with DAG storage and O(1) lookups
+
+\section*{Education}
+
+\textbf{Bachelor of Science, Computer Science} — University of Central Florida (2009-2013)
+
+\textbf{Bachelor of Arts, Comparative Religion} — University of Florida (2003-2007)
+
+\end{document}
