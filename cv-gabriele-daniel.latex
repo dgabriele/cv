@@ -50,29 +50,33 @@
 % Header
 \begin{center}
 {\LARGE \textbf{Daniel Gabriele}}\\[5pt]
-\textbf{Senior Full Stack Engineer}\\[3pt]
+\textbf{Software Engineer | ML Research Engineer}\\[3pt]
 New York City, NY\\[4pt]
 LinkedIn: \href{https://linkedin.com/in/danielgabriele}{linkedin.com/in/danielgabriele} |
 GitHub: \href{https://github.com/dgabriele}{github.com/dgabriele}\\[1pt]
-Email: dg0offset@gmail.com | Phone: (347) 886-1059
+Email: dg0offset [at] gmail [dot] com
 \end{center}
 \vspace{4pt}
 
 \section*{Professional Summary}
 
-Senior full stack engineer with 12+ years building production systems across web3, fintech, and enterprise applications. Backend specialist with deep expertise in distributed systems, microservices architecture, and high-performance computing. Proven track record designing and implementing complex full-stack applications from infrastructure to UX. Skilled in machine learning systems, from training neural operators and evolutionary algorithms to deploying adaptive trading systems. Strong architectural thinking combined with hands-on implementation across the entire stack—from smart contracts and backend APIs to responsive frontend UX and data pipelines.
+Engineer with 12+ years across full-stack product development, web3 infrastructure, high-performance computing, and ML research. I've shipped production systems at every layer—microservices and fintech platforms, CosmWasm smart contracts and on-chain architectures, real-time trading systems running on live capital—and I build research software independently, from neural operator pre-training frameworks to multilingual VAE decoders for emergent agent communication.
+
+My earlier work in HPC (non-blocking data structures, parallel algorithms) and scientific computing still shapes how I think about systems at any level of the stack. Current interests center on quantitative trading and systematic strategy development, and on AI research in pre-training methods and scientific machine learning—neural operators, emergent communication, and foundation models for physical systems.
+
+I came to computer science through comparative religion and a curiosity about complex systems, not through a traditional engineering track. That path has had a lasting influence on how I approach design problems—I tend to reach for ideas across disciplines and pick up new domains quickly.
 
 \section*{Work Experience}
 
-\subsection*{Founder \& Lead Engineer | Automated Trading Systems}
+\subsection*{Independent Algorithmic Trader \& Engineer}
 \textbf{Jan 2025 - Present} | Self-Employed
 
 \vspace{2pt}
 \begin{itemize}
-    \item Built production automated trading system deployed on Dydx, Hyperliquid, and Injective with real-time data pipeline processing large-scale market data streams
-    \item Developed open source Pythonic genetic programming framework for evolving adaptive trading rule ensembles with self-regulating behavior
-    \item Implemented gradient boosting models (GBM) as metafilters for orderbook dynamics prediction, using genetic programming for automated feature engineering
-    \item Architected full-stack real-time system for deploying, monitoring, and adapting trading strategies with minimal latency
+    \item Built and operate a production trading system across multiple decentralized exchanges, with a real-time data pipeline processing live market data streams
+    \item Created an open source genetic programming framework (Nature) for evolving adaptive trading rule ensembles with self-regulating behavior
+    \item Trained gradient boosting metafilters for orderbook dynamics prediction, with genetic programming handling automated feature engineering
+    \item Designed the full real-time stack for deploying, monitoring, and adapting strategies with minimal latency
     \item \textbf{Technologies:} Python, FastAPI, WebSockets, PyTorch, Pandas, NumPy, Scipy
 \end{itemize}
 
@@ -80,18 +84,18 @@ Senior full stack engineer with 12+ years building production systems across web
 \textbf{Feb 2022 - Nov 2025} | Self-Employed
 
 \vspace{2pt}
-\textit{Web3 gaming and application software company building decentralized applications, running validators, and contributing to blockchain infrastructure innovation across multiple Cosmos networks.}
+\textit{Web3 company building decentralized games, social platforms, and DeFi applications across multiple Cosmos networks, with validators and open source infrastructure contributions.}
 
 \vspace{2pt}
 \begin{itemize}
-    \item Designed and implemented 20+ production CosmWasm smart contracts powering full-stack web3 applications including games, social platforms, and DeFi protocols across 6 Cosmos networks
-    \item Built novel "zero-backend" architecture—complete applications running on smart contracts with zero hosting costs or private RPC dependencies
-    \item Launched pampit.fun, a production token launchpad powered 100\% by on-chain smart contracts handling real transaction volume
-    \item Designed and built Threads, a Reddit-like fully on-chain social application with tree-structured discussions and native tipping
-    \item Developed multiple lottery and gaming platforms with complex game logic and profit-sharing mechanisms
-    \item Launched three NFT series with trustless smart contract profit distribution
-    \item Awarded permission via blockchain governance to deploy on five networks; won multiple grants; achieved \$400K peak LP investment during ICO
-    \item Managed large Discord community at peak operation; presented at in-person Cosmos events
+    \item Wrote 20+ production CosmWasm smart contracts powering games, social platforms, and DeFi protocols across 6 Cosmos networks
+    \item Developed a ``zero-backend'' architecture—complete applications living entirely on-chain, with no hosting costs or private RPC dependencies
+    \item Launched pampit.fun, a token launchpad powered 100\% by smart contracts and handling real transaction volume
+    \item Built Threads, a Reddit-like fully on-chain social app with tree-structured discussions and native tipping
+    \item Created multiple lottery and gaming platforms with profit-sharing mechanisms
+    \item Launched three NFT series with trustless on-chain profit distribution
+    \item Won governance approval to deploy on five networks; received multiple grants; reached \$400K peak LP investment during ICO
+    \item Grew and managed a large Discord community; presented at in-person Cosmos events
     \item \textbf{Technologies:} Rust, CosmWasm, TypeScript, Next.js, Nest.js, Expo, Docker, Kubernetes
 \end{itemize}
 
@@ -99,13 +103,13 @@ Senior full stack engineer with 12+ years building production systems across web
 \textbf{Jan 2021 - Dec 2022} | New York City, NY | \href{https://www.crunchbase.com/organization/strike-protocols-inc}{Crunchbase}
 
 \vspace{2pt}
-\textit{Financial services and technology firm providing institutional-grade infrastructure and simple capital markets access to crypto assets for institutional investors and management teams.}
+\textit{Fintech startup building institutional-grade custody and capital markets infrastructure for digital assets.}
 
 \vspace{2pt}
 \begin{itemize}
-    \item Implemented multi-stage threshold-based on-chain authorization system for Solana enterprise cryptocurrency vault application
-    \item Designed and implemented complex frontend user workflows and vault management UI/UX for enterprise clients
-    \item Contributed to async backend framework for syncing on-chain state with backend databases
+    \item Built multi-stage threshold authorization for a Solana enterprise vault application
+    \item Designed frontend workflows and vault management UI/UX for enterprise clients
+    \item Contributed to the async backend framework syncing on-chain state with internal databases
     \item \textbf{Technologies:} Rust, TypeScript, Kotlin, Solana
 \end{itemize}
 
@@ -114,9 +118,9 @@ Senior full stack engineer with 12+ years building production systems across web
 
 \vspace{2pt}
 \begin{itemize}
-    \item Founded and built full-stack application with custom procedural art generation library (Reactor) for dropshipping business
-    \item Developed complex parametric art generation system rendering high-resolution outputs onto product mockups on-demand
-    \item Architected scalable backend with async task processing for on-the-fly art generation and rendering
+    \item Built a full-stack dropshipping platform around a custom procedural art generation library (Reactor)
+    \item Developed parametric art engine rendering high-resolution outputs onto product mockups on demand
+    \item Designed the backend with async task processing for on-the-fly generation and rendering
     \item \textbf{Technologies:} Node.js, TypeScript, Canvas API, Python, Celery
 \end{itemize}
 
@@ -135,14 +139,14 @@ Senior full stack engineer with 12+ years building production systems across web
 \textbf{Feb 2014 - Nov 2019} | New York, NY
 
 \vspace{2pt}
-\textit{Private deal network platform connecting business owners, M\&A advisors, and investors in the middle-market, using proprietary matching algorithms to facilitate mergers, acquisitions, and capital raising.}
+\textit{Private deal network connecting middle-market business owners, M\&A advisors, and investors through proprietary matching algorithms.}
 
 \vspace{2pt}
 \begin{itemize}
-    \item Rearchitected backend from monolith to FastAPI-based microservices architecture for B2B financial services platform
-    \item Designed and implemented core matching engine connecting business owners with investors and buyers
-    \item Built search and recommendation systems for classifying and discovering investment opportunities
-    \item Implemented user authentication and authorization systems
+    \item Led migration from monolith to FastAPI-based microservices for the core deal platform
+    \item Designed and built the matching engine connecting business owners with investors and buyers
+    \item Built search and recommendation systems for discovering investment opportunities
+    \item Implemented authentication and authorization across the platform
     \item \textbf{Technologies:} Python, FastAPI, Celery, PostgreSQL, Redis, Docker, Kubernetes
 \end{itemize}
 
@@ -160,19 +164,24 @@ Senior full stack engineer with 12+ years building production systems across web
 
 \vspace{2pt}
 \begin{itemize}
-    \item Developed non-blocking data structures and algorithms for high-performance computing applications (hash sets, bloom filters, green threads) in C++
-    \item Built multitouch applications for exploring symbolic learning and emergent communication systems with cellular automata
-    \item Developed algebra learning games for experimental high school curricula integrating hands-on CS experience
-    \item Participated in evolutionary computing research developing adaptive systems
+    \item Developed non-blocking data structures for HPC applications (hash sets, bloom filters, green threads) in C++
+    \item Built multitouch applications exploring symbolic learning and emergent communication via cellular automata
+    \item Created algebra learning games for an experimental high school curriculum
+    \item Contributed to evolutionary computing research on adaptive systems
     \item \textbf{Technologies:} C++, Python, X Window System
 \end{itemize}
 
 \section*{Selected Technical Projects}
 
+\subsection*{LFM — Language Faculty Model}
+\textbf{GitHub:} \href{https://github.com/dgabriele/lfm}{github.com/dgabriele/lfm} | PyTorch, VAE, REINFORCE, SentencePiece
+
+Agents embedded in complex systems develop internal representations that encode perspectives no human has access to—but have no way to express them. LFM gives those agents a language. A multilingual VAE decoder pretrained on 560K IPA-transcribed sentences from 16 typologically diverse languages is frozen as a linguistic bottleneck, analogous to a Chomskyan Universal Grammar: agents learn only to project representations into the decoder's latent space, and the fixed structural prior constrains output to be phonotactically well-formed, compositional, and variable-length—avoiding the known failure modes of emergent communication (degenerate codes, anti-Zipfian distributions, non-compositional collapse). The emergent language is alien but structurally natural, making it translatable by a fine-tuned LLM the same way it would learn any unfamiliar natural language. Achieves 95\% accuracy (15.2x above chance) on 16-way referential games with hard semantic negatives. Latent space recovers typological groupings across language families, exhibits Zipfian token statistics, Lipschitz smoothness (r=0.86), and adaptive length scaling (r=0.947). Includes 11-command CLI visualization suite for publication-quality structural diagnostics.
+
 \subsection*{Spinlock — Neural Operator Pre-Training Framework}
 \textbf{GitHub:} \href{https://github.com/dgabriele/spinlock}{github.com/dgabriele/spinlock} | PyTorch, U-AFNO, Neural Operators, VQ-VAE
 
-Pre-training framework for physics-native neural operators that discover emergent behaviors in high-dimensional dynamical systems. Implements curiosity-guided exploration using Sobol sampling, training U-AFNO meta-operators to generate fast surrogate models for diverse rollout dynamics. Compresses trajectories into hierarchical VQ-VAE tokens enabling semantic grounding across physics domains.
+Pre-training framework for neural operators over continuous dynamical systems (e.g.\ Lenia continuous cellular automata, reaction-diffusion PDEs). Generates large-scale trajectory datasets via Sobol-stratified parameter sampling, extracts multi-modal behavioral features, and trains U-AFNO meta-operators as fast surrogate world models across diverse dynamics. Includes two tokenization pathways: a VQ-VAE discrete codebook for behavioral clustering, and an NLTokenizer that integrates with LFM's frozen linguistic decoder—encoding trajectory dynamics into a continuous VAE latent space, projecting through Gumbel-Softmax into LFM's frozen autoregressive decoder, and verifying fidelity via a listener roundtrip loss. The goal: agents that observe dynamical systems and describe what they see in their own emergent language, translatable to English via a fine-tuned LLM.
 
 \subsection*{Nature — Genetic Programming Framework}
 \textbf{GitHub:} \href{https://github.com/dgabriele/nature}{github.com/dgabriele/nature} | Python, Grammar Evolution
